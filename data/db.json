@@ -1,0 +1,58 @@
+{
+    "clinicas": {
+        "1": {
+            "id": 1,
+            "nome": "Arizona Pet Care",
+            "cnpj": "",
+            "email": "",
+            "telefone": "(11) 98217-9717",
+            "endereco": "Av. Dr. Altino Arantes, 292 — Vila Clementino",
+            "cidade": "São Paulo",
+            "uf": "SP",
+            "ativo": true
+        }
+    },
+    "funcionarios": {
+        "1": {
+            "id": 1,
+            "nome": "Administrador",
+            "email": "admin@exemplo.com.br",
+            "cpf": "",
+            "telefone": "",
+            "especialidade": "",
+            "perfil": "administrador",
+            "clinicas": [
+                1
+            ],
+            "ativo": true,
+            "acesso": "email",
+            "senha_hash": "$2y$10$xUVvMKNZzeb2CnU2CXVyPeg5DTM2Ymh9\/Np7WWJmSyerCha0kKXjy"
+        }
+    },
+    "clientes": {
+        "1": {
+            "id": 1,
+            "ativo": true,
+            "acesso": "email",
+            "nome": "Sérgio",
+            "cpf": "111.111.111-11",
+            "email": "s@email.com",
+            "telefone": "(11) 11111-1111",
+            "endereco": "ra"
+        }
+    },
+    "pets": {
+        "1": {
+            "id": 1,
+            "ativo": true,
+            "tutor_id": 1,
+            "nome": "Thor",
+            "especie": "Coelho",
+            "raca": "Branquinho de olhos vermelhos",
+            "peso": 12
+        }
+    },
+    "consultas": [],
+    "exames": [],
+    "resets": []
+}
